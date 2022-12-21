@@ -1,0 +1,62 @@
+:root {
+  --color-primary: #D90452;
+  --color-secondary: #8C1C5A;
+  --color-tertiary: #0F1526;
+  --color-accent: #F28B0C;
+  --color-accent-light: #F2620F;
+}
+
+body {
+  background-color: var(--color-tertiary);
+  color: var(--color-tertiary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+button {
+  background-color: var(--color-secondary);
+  color: var(--color-accent-light);
+  padding: 1%;
+  border-radius: 7px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .btn-primary {
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-tertiary));
+  }
+
+  .btn-primary {
+    transition: background 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, var(--color-secondary), var(--color-primary));
+  }
+  
+
+  
+  
+  
+  
+  

@@ -1,0 +1,21 @@
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 10%;
+  }
+  
+  .error-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+  }
+  
+  .error-page-logo {
+    width: 12%;
+    height: 12%;
+  }
+  

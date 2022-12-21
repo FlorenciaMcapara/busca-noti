@@ -1,0 +1,31 @@
+/* Spinner.css */
+
+:root {
+    --color-primary: #D90452;
+    --color-secondary: #8C1C5A;
+    --color-tertiary: #0F1526;
+    --color-accent: #F28B0C;
+    --color-accent-light: #F2620F;
+}
+
+.spinner-container {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-spinner {
+    color: #F28B0C;
+}
+  
+.custom-spinner.spinner-border {
+    border-color: var(--color-secondary) var(--color-secondary) var(--color-primary) var(--color-primary);
+}
+
+
+.spinner {
+    color: #fff;
+    background-color: var(--color-primary);
+  }
+
+
+  

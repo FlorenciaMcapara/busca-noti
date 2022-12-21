@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .logo {
+    max-width: 100px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .pagination{
+    margin-top: 30px;
+  }
+  
+  .textpag{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
